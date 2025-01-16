@@ -5,7 +5,9 @@ typedef long long ll;
 int main()
 {
     int n;cin>>n;
-    if(n==2) puts("NO");
-    else if(n&1) puts("NO");
-    else puts("YES");
+    bool ok=true;
+    int pete=2;
+    int billy=n-2;
+    if(pete>0 and (pete&1)==0 and billy>0 and  (billy&1)==0) ok=false;
+    ok ? cout<<"NO\n":cout<<"YES\n";    
 }

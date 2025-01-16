@@ -52,11 +52,11 @@ int main()
 
     // cout<<gen_random(1,10)<<"\n";
     freopen("input.txt","w",stdout);
-    int n=gen_random(1,5);
+    int n=gen_random(1,100);
     cout<<n<<"\n";
-    for (int i = 0; i <n; i++)
-    {
-        cout<<gen_random(-20,20)<<" ";
-    }
+    // for (int i = 0; i <n; i++)
+    // {
+    //     cout<<gen_random(-20,20)<<" ";
+    // }
     
 }
